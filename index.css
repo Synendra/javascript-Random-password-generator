@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: "Courier New", Courier, monospace;
+    background-color: chocolate;
+    padding: 30px;
+}
+
+.password-container {
+    width: 100%;
+    max-width: 586px;
+    margin: 50px auto;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px;
+}
+.input-container {
+    display: flex;
+    border: solid black 2px;
+    padding: 5px 15px;
+    margin: 15px 0;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.heading {
+    font-size: xx-large;
+}
+.input-box {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: x-large;
+}
+
+.password-copier {
+    font-size: xx-large;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.password-copier:hover {
+    opacity: 1;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.alert-container {
+    background-color: lightgreen;
+    position: fixed;
+    right: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active.alert-container {
+    right: -300px;
+}
